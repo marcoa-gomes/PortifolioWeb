@@ -1,0 +1,168 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(15, 13, 27)
+}
+
+p{
+  font-style: oblique;  
+  font-family: monospace;
+}
+
+h1{
+  font-family: cursive;
+  }
+a{
+  font-family: cursivegit;
+  text-decoration: none;
+
+}
+
+.menuHeader {
+  display: flex;
+  color: whitesmoke;
+  justify-content:end ;
+  background-color: rgb(15, 13, 27)
+}
+
+h3 {
+  font-size: 20px;
+}
+
+#contatoMenu {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#FeedbackMenu {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.icones {
+  display: flex;
+  justify-content:center;
+  height: 70px;
+}
+
+#iconYoutube {
+  height: 100%;
+}
+
+#iconInstagram {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#iconLinkedin {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#iconGithub {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mainText {
+  height: 50%;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: antiquewhite;
+}
+
+#principalTexto {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%px;
+  font-size: 50px;
+}
+
+#descricaoPrincipal {
+  display: flex;
+  justify-content: center;
+  margin-left: 25%;  
+  width: 50%;
+  height: 80%;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#centralText {
+  display: flex;
+  justify-content: center;
+  color: azure;
+  font-size: 100px;
+}
+
+.sideText {
+  display: flex;
+  height: 50%;
+  width: 35%;
+  flex-direction: column;
+  color: antiquewhite;
+}
+
+.counteinerPrincipal {
+  margin-top: 100px;
+  display: flex;
+}
+
+#sideTitle {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.projectList {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.imgTech {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gallery-card {
+  display: flex;
+  flex-direction: column;
+  height: 225px;
+  justify-content: center;
+  margin: 0 10px 15px 0;
+  width: 180px;
+  transition: transform 0.3s; /* Adiciona uma transição suave */
+}
+
+.gallery-card:hover {
+  transform: scale(1.45); /* Aumenta em 10% quando o mouse passa por cima */
+}
+
+.gallery-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  margin: 15px auto 20px;
+  width: 30%;
+}
+
+#habilidades {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+}
